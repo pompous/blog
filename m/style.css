@@ -1,0 +1,51 @@
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT: 17px; FONT-FAMILY: ËÎÌו
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 17px; FONT-FAMILY: ËÎÌו
+}
+P {
+	LINE-HEIGHT: 17px
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; 
+}
+A:active {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4CA4B9; TEXT-DECORATION: underline
+}
+.xtable {
+	BORDER-RIGHT: #33cc00 10px solid; BORDER-LEFT: #33cc00 10px solid; BACKGROUND-COLOR: #f2fdee
+}
+.ytable {
+	BORDER-RIGHT: #33cc00 10px solid; BORDER-LEFT: #33cc00 10px solid; BORDER-COLLAPSE: collapse
+}
+.bg1 {
+	BACKGROUND-COLOR: #ffffff
+}
+.bg2 {
+	BACKGROUND-COLOR: #f2fdee
+}
+.bg3 {
+	BACKGROUND-COLOR: #00ccff
+}
+.bg4 {
+	BACKGROUND-COLOR: #ccffcc
+}
+.bg5 {
+	BACKGROUND-COLOR: #cbf3bd
+}
+.f1 {
+	COLOR: #ff0000
+}
+.f2 {
+	COLOR: #4CA4B9; TEXT-DECORATION: underline
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px
+}
