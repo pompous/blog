@@ -1,0 +1,9 @@
+img,a img{ 
+border:0; 
+margin:0; 
+padding:0; 
+max-width:610px; 
+width:expression(this.width>610?"610px":this.width); 
+max-height:450px; 
+height:expression(this.height>450?"450px":this.height); 
+} 

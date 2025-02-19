@@ -1,0 +1,72 @@
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+em{font-style:normal;}
+a{text-decoration:none;cursor:pointer;color:#666666;}
+a:hover{color:#cccccc;}
+body{background: #cccccc;color:#666666;font-family:Î¢ÈíÑÅºÚ;font-size:14px;}
+.fl{float:left;}.fr{float:right;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}
+*html .clearfix{height:1%;}
+.clearfix{display:block;}
+*+html .clearfix{min-height:1%;}
+.demo{width:980px;margin:0 auto;}
+
+
+.item_list{position:relative;padding:0 0 20px;}
+.item{
+	width:233px;background:#fff;overflow:hidden;margin:15px 0 0 0;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0 1px 3px rgba(34, 25, 25, 0.2);	
+}
+.item_t{padding:10px 9px 0;}
+.item_t .img{background-color:#FFFFFF;margin:0 auto;position:relative;width:215px;min-height:236px;}
+.item_t .img a{display:block;}
+.item_t .img a:hover{background:#000;}
+.item_t .img a:hover img{filter:alpha(opacity=80);-khtml-opacity:0.8;opacity:0.8;-webkit-transition:all 0.3s ease-out;-khtml-transition:all 0.3s ease-out;}
+.item_t .price{
+	position:absolute;bottom:10px;right:0px;background-color:rgba(0, 0, 0, 0.2);color:#FFF;
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#33000000, endcolorstr=#33000000);
+}
+.item .btns{display:none;}
+.img_album_btn{top:0px;right:0px;position:absolute;background:#ff6600;color:#ffffff;height:20px;line-height:20px;width:56px;border-radius:3px;}
+.img_album_btn:hover{color:#fff;}
+
+
+
+.item .tougao{display:}
+.img_album_btntougao{top:0px;right:0px;position:absolute;background:url("../xwimg/tougaobg.png") no-repeat;color:#ffffff;height:100px;line-height:20px;width:100px;border-radius:3px;}
+.img_album_btntougao:hover{color:#fff;}
+
+.item_t .title{padding:8px 0;line-height:20px;font-size:13px;font-weight:bold;display: block; height: 30px; width: 225px; line-height: 30px; text-align: left; background: #eee; }
+.item_t .content{padding:8px 0;line-height:18px;}
+.item_b {padding:10px 8px;}
+.item_b .items_likes .like_btn{background:url("../xwskin/zanxw.png") no-repeat;display:block;float:left;height:23px;width:30px;margin-right:5px;}
+.item_b .items_likes em{line-height:21px;display:block;float:left;padding:0px 6px;color:#ff6699;font-weight:1500;border:1px solid #f87463;border-radius:3px;}
+
+
+#more{display:block;margin:10px auto 20px;}
+
+
+#infscr-loading{bottom:-10px;left:45%;position:absolute;text-align:center;height:20px;line-height:20px;z-index:100;width:120px;}
+
+
+
+
+.to_top a,.to_top a:hover{background:url("../xwimg/gotop.png") no-repeat}
+.to_top a{
+	background-position:0 0;float:left;height:50px;overflow:hidden;width:50px;position:fixed;bottom:35px;cursor:pointer;right:20px;
+	_position:absolute;
+	_right:auto;
+	_left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft, 10)||0)-(parseInt(this.currentStyle.marginRight, 10)||20));
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||20)-(parseInt(this.currentStyle.marginBottom, 10)||20)));
+}
+.to_top a:hover{background-position:-51px 0px;}
+
+#search-box{width:326px;height:29px;background:url(../xwimg/so-bg.gif) no-repeat 0 0; margin:0 auto}
+.input-box{ float:left; width:200px; height:29px; line-height:29px; padding-left:33px; border:0; background:none; text-align:left; font-size:14px}
+.button{ float:right; border:0; background:none; text-indent:-999px; width:70px; height:29px; cursor:pointer}
+
+#search-box2{width:295px;height:29px;background:url(../xwimg/so-bg2.gif) no-repeat 0 0; margin:0 auto}
+.input-box2{ float:left; width:220px; height:29px; line-height:29px; padding-left:11px; border:0; background:none; text-align:left; font-size:14px}
+.button2{ float:right; border:0; background:none; text-indent:-999px; width:70px; height:29px; cursor:pointer}

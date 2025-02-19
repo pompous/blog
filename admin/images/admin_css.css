@@ -1,0 +1,38 @@
+body{font-family:Î¢ÈíÑÅºÚ;font-size:14px;}
+a:link{text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:none;}
+
+
+input, textarea,select {font-size: 12px; border:1px dashed #999;}
+form {margin:0px;padding:0px;}
+
+.title1 {text-align:left;font-weight:bold;padding-top:3px;}
+
+.admintable {width:98%;border:1px solid #999;margin-bottom:10px;}
+.admintable1 {width:98%;border:1px solid #999;}
+
+.admintitle {font-weight:bold;font-size:14px;padding:5px;text-align:left;background-color:#c0daed;}
+.admintitle a:link,.admintitle a:visited {font-size:14px;}
+.admintitle a:hover {color:#3E962C;}
+.admintitle span {float:right;}
+
+.tdleft{padding-left:10px;}
+
+.b1 {background:#ffffff;}
+.b1_1 {background:#f6f6f6;height:25px;padding-left:10px;text-align:left;}
+.noborder {border:0}
+.note {color:#999999}
+.ButtonList {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; CURSOR: default; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #e6e6e6;font-weight:bold;text-align:center;padding:5px;
+}
+/*·ÖÒ³´úÂë*/
+.page_css_1{color:#555555;text-decoration:none;border:1px solid #CBCBCB;background-color:#EFF6FB;text-align:center;width:50px;}
+.page_css_2{	text-decoration: none;	color: #FFFFFF;	border: 1px solid #2F5FA1;	background-color: #A3D8F7;text-align:center;width:25px;	padding-top: 5px;	padding-right: 3px;	padding-bottom: 5px;padding-left: 5px;font-weight: bold;}
+.page_css_3{color:#555555;text-decoration:none;border:1px solid #CBCBCB;background-color:#EFF6FB;text-align:center;width:225px;padding:0 5px 0 0 ;margin:5px;}
+
+.page_css_1_1{color:#555555;text-decoration:none;border:1px solid #CBCBCB;background-color:#EFF6FB;text-align:center;}
+.page_css_2_1{text-decoration: none;color: #FFFFFF;border: 1px solid #2F5FA1;background-color: #A3D8F7;font-weight: bold;text-align:center;}
+.pl_box {	background: #FFFFFF;color:#777;	height: 24px;margin: 10px auto;	padding-left: 10px;	padding-right: 10px;	width: 620px;}
+.pl_login {min-height:35px;}
